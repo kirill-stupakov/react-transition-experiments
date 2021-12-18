@@ -1,5 +1,5 @@
 {
-  "name": "react-transition-experiments",
+  "name": "weird-login-forms",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --watch",
+    "test:ci": "jest --ci --reporters='default' --reporters='./github-actions-reporter'",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ts-jest": "^27.1.2"
   }
 }
