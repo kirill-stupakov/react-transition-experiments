@@ -1,4 +1,4 @@
-ame: Tests CI
+name: Tests CI
 
 on: [push, pull_request]
 
