@@ -1,8 +1,8 @@
 import React from "react";
-import SelectTile from "./SelectTile";
+import FormSelectionMenu from "./FormSelectionMenu";
 
 const HomePage = () => {
-    return <SelectTile />
-}
+  return <FormSelectionMenu />;
+};
 
 export default HomePage;

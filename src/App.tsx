@@ -1,15 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.scss";
 
 import HomePage from "./components/HomePage";
 import TopBar from "./components/TopBar";
-import GridSelector from "./GridSelector/GridSelector";
 
 function App() {
-    const qw = new GridSelector([4, 7]);
   return (
     <div className="App">
-        <TopBar/>
+      <TopBar />
       <HomePage />
     </div>
   );
